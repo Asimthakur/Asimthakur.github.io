@@ -7,7 +7,11 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' }
+      { text: 'Home', link: '/' },
+      { text: 'Blog', link: '/blog/' },
+      { text: 'Notes', link: '/notes/' },
+      { text: 'Projects', link: '/projects/' },
+      { text: 'Reflect Back', link: '/reflect-back/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Asimthakur' }
